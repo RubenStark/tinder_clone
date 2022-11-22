@@ -1,4 +1,4 @@
-package com.example.tinder_clone
+package com.example.slider
 
 import io.flutter.embedding.android.FlutterActivity
 

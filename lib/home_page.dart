@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tinder_clone/details_page.dart';
 
 import 'curved_painter.dart';
-import "dart:ui";
 
 import 'match_page.dart';
 
@@ -65,22 +64,22 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      Container(
-                        height: 42,
-                        width: 42,
-                        padding: EdgeInsets.all(6),
-                        decoration: BoxDecoration(
-                          color: Colors.black.withOpacity(0.1),
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-                        child: RotatedBox(
-                          quarterTurns: 1,
-                          child: Image.asset(
-                            "assets/icons/png/filter.png",
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
+                      // Container(
+                      //   height: 42,
+                      //   width: 42,
+                      //   padding: EdgeInsets.all(6),
+                      //   decoration: BoxDecoration(
+                      //     color: Colors.black.withOpacity(0.1),
+                      //     borderRadius: BorderRadius.circular(100),
+                      //   ),
+                      //   child: RotatedBox(
+                      //     quarterTurns: 1,
+                      //     child: Image.asset(
+                      //       "assets/icons/svg/cart.svg",
+                      //       color: Colors.white,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
